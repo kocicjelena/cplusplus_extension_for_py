@@ -17,6 +17,6 @@ setup(name = 'c_module',
       py_modules=['myimplementation'],
       url='https://github.com/kocicjelena/cplusplus_extension_for_py',
 	  test_suite = "test.myimplementation_unittest",
-	  scripts = ["runner"],
+	  console_scripts = ["myimplementation/myimplementation.py"],
       author='jk',
       author_email='kocicjelena at gmail dot com')
