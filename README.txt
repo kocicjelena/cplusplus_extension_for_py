@@ -2,6 +2,9 @@ Build and test the module
 
 
 > python setup.py install
+
+Implementation:
+
 import c_module
 c_module.c_module_calc_stat()
 
