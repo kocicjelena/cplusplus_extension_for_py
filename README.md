@@ -1,2 +1,0 @@
-# pypi_cplusplus_extension_for_py
-pypi_cplusplus_extension_for_py

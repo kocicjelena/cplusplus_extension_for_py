@@ -1,0 +1,6 @@
+# Include the license file
+include runner README LICENSE.txt
+
+# Include the files
+recursive-include myimplementation/ *
+recursive-include test/ *
