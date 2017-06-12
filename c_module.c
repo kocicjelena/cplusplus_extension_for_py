@@ -31,5 +31,5 @@ static struct PyModuleDef c_module_definition = {
 PyMODINIT_FUNC PyInit_c_module(void){
     Py_Initialize();
 
-    return PyModule_Create(&c_module_definition);
+    return PyModule_Create(&c_module_calc_stat);
 }
