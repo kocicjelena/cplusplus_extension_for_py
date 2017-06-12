@@ -9,7 +9,7 @@ static PyObject* c_module_calc_stat(PyObject *self, PyObject *args)
    return NULL;   }   
    return Py_BuildValue("ii", a + b, a - b); 
 }
-static PyObject* c_module_module_func(PyObject *self, PyObject *args) {   
+static PyObject* c_module_module_func(PyObject *self, PyObject *args) {}   
 static PyMethodDef c_module_methods[] = { 
     {   
         "calc_stat",
@@ -28,8 +28,7 @@ static struct PyModuleDef c_module_definition = {
     c_module_methods
 };
 
-PyMODINIT_FUNC PyInit_c_module(void)
-{
+PyMODINIT_FUNC PyInit_c_module(void){
     Py_Initialize();
 
     return PyModule_Create(&c_module_definition);
