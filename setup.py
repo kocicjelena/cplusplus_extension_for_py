@@ -31,4 +31,4 @@ setup(name = 'c_module',
      url='https://github.com/kocicjelena/cplusplus_extension_for_py',
 	  test_suite = "test.myimplementation_unittest",
 	author='jk',
-      author_email='kocicjelena at gmail dot com')
+      author_email='kocicjelena@gmail.com')
