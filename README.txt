@@ -6,7 +6,7 @@
 Implementation in dev and testing:
 
 import c_module
-c_module.c_module_calc_stat()
+c_module.calc_stat()
 
 
 test:
