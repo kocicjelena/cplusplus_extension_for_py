@@ -14,6 +14,3 @@ def main():
   sample = CExtExample()
   sample.run()
 
-
-if __name__ == '__main__':
-  main()
