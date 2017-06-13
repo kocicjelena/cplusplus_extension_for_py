@@ -4,13 +4,13 @@ import sys
 # To use a consistent encoding
 from codecs import open
 from os import path
-
+from setuptools import setup, find_packages
 here = path.abspath(path.dirname(__file__))
 
 # Get the long description from the README file
 #with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 #    long_description = f.read()
-from distutils.core import setup, Extension
+from distutils.core import Extension
 from distutils.sysconfig import get_python_inc, get_python_lib
 
 incdir =  [
