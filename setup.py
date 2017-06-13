@@ -15,8 +15,8 @@ from distutils.sysconfig import get_python_inc, get_python_lib
 
 incdir =  [
     os.path.join(here, "cplusplus_extension_for_py"),
-    sysconfig.get_python_lib(),
-    sysconfig.get_python_inc(),
+    get_python_lib(),
+    get_python_inc(),
     os.path.join(get_python_lib(plat_specific=1), 'c_module')
 ]
 #incdir = os.path.join(get_python_inc(plat_specific=1), 'Numerical')
