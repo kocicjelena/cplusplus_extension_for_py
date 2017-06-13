@@ -7,7 +7,7 @@ static PyObject* c_module_calc_stat(PyObject *self, PyObject *args)
 	 int a;   int b;
    if (!PyArg_ParseTuple(args, "ii", &a, &b)) {      
    return NULL;   }   
-   return Py_BuildValue("ii", a + b, a - b); 
+   return Py_BuildValue("ii", 11, 12); 
 }
 static PyObject* c_module_module_func(PyObject *self, PyObject *args) {}   
 static PyMethodDef c_module_methods[] = { 
